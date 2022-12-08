@@ -1,0 +1,250 @@
+.hero-main-div {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.div-hero-pix {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.image-div {
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: linear-gradient(235deg, gray, rgb(gray), gray);
+}
+.slider {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  z-index: 0.1;
+  color: white;
+}
+.slider figure div {
+  /* float: left; */
+  /* width: 100%; */
+}
+.slider figure .image-div {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider figure {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  visibility: visible;
+  animation: animate 5s infinite;
+}
+
+/* @keyframes change{
+  0%
+  {
+      background-image: url(../../assests/images/srt.jpg);
+  }
+  20%
+  {
+      background-image: url(images/img2.jpg);
+  }
+  40%
+  {
+      background-image: url(images/image.jpg);
+  }
+  60%
+  {
+      background-image: url(images/img4.jpg);
+  }
+  80%
+  {
+      background-image: url(images/img5.jpg);
+  }
+  100%
+  {
+      background-image: url(images/img1.jpg);
+  }
+} */
+/* @keyframes animate {
+  0% {
+    bottom: 0%;
+    visibility: visible;
+  }
+  10% {
+    bottom: 0%;
+    visibility: visible;
+  }
+  15% {
+    bottom: -100%;
+    visibility: visible;
+  }
+  25% {
+    bottom: -100%;
+    visibility: visible;
+  }
+  30% {
+    bottom: -200%;
+    visibility: visible;
+  }
+  40% {
+    bottom: -200%;
+    visibility: visible;
+  }
+  45% {
+    bottom: -300%;
+    visibility: visible;
+  }
+  55% {
+    bottom: -300%;
+    visibility: visible;
+  }
+  60% {
+    bottom: -400%;
+    visibility: visible;
+  }
+  70% {
+    bottom: -400%;
+    visibility: visible;
+  }
+  75% {
+    bottom: -200%;
+    visibility: visible;
+  }
+  85% {
+    bottom: -200%;
+    visibility: visible;
+  }
+  90% {
+    bottom: -100%;
+    visibility: visible;
+  }
+  100% {
+    bottom: -100%;
+    visibility: visible;
+  }
+} */
+.tymix {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.hero-hh {
+  color: whitesmoke;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.c-hh {
+  color: whitesmoke;
+  width: 40%;
+  font-size: 65px;
+  font-weight: 800;
+  font-style: normal;
+}
+.jt-h {
+  font-size: 20px;
+  font-weight: 600;
+  width: 50%;
+  color: whitesmoke;
+  margin-bottom: 50px;
+}
+.learn-hero {
+  display: flex;
+  width: 200px;
+  height: 70px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  background: #6ec1e4;
+  border: 1px solid transparent;
+}
+.learn-hero:hover {
+  background: #4054b2;
+}
+@media (max-width: 980px) {
+  .hero-main-div {
+    height: auto;
+  }
+  .div-hero-pix {
+    height: auto;
+  }
+  .slider {
+    height: auto;
+  }
+  .hero-hh {
+    color: whitesmoke;
+    font-size: 25px;
+    width: 80%;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .c-hh {
+    color: whitesmoke;
+    width: 80%;
+    font-size: 45px;
+    font-weight: 800;
+    font-style: normal;
+  }
+  .jt-h {
+    width: 80%;
+  }
+}
+@media (max-width: 480px) {
+  .hero-main-div {
+    height: auto;
+  }
+  .div-hero-pix {
+    height: auto;
+  }
+  .tymix {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+  }
+  .hero-hh {
+    color: whitesmoke;
+    font-size: 18px;
+    width: 80%;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .c-hh {
+    color: whitesmoke;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+  }
+  .jt-h {
+    width: 90%;
+    font-size: 16px;
+  }
+  .hero-main-div {
+    height: 70vh;
+  }
+  .image-div {
+    height: 70vh;
+  }
+  /* .slider {
+    height: 70vh;
+  } */
+  .learn-hero {
+    display: flex;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 600;
+    background: #6ec1e4;
+    border: 1px solid transparent;
+  }
+}

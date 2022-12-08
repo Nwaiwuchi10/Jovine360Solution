@@ -1,0 +1,152 @@
+.choose-main-div {
+  width: 100%;
+  height: auto;
+  background-color: rgb(34, 31, 60);
+  margin-bottom: 50px;
+  /* color: white; */
+}
+.pd-choose {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.why {
+  font-size: large;
+  font-weight: 700;
+  color: rgb(142, 136, 184);
+  margin-bottom: 20px;
+}
+.bigy {
+  font-size: 32px;
+  width: 50%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.ch-row {
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.pique {
+  width: 22%;
+
+  height: 45vh;
+  border: 1px solid rgb(142, 136, 184);
+  margin-top: 40px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.pow {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.pique-h {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.pique:hover {
+  background-color: white;
+}
+.pique:hover .pique-h {
+  color: initial;
+}
+.piq {
+  width: 80%;
+  color: #aeaacb;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.pique:hover .pique-h {
+  color: #6d6d6d;
+}
+.di-pique {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+  justify-content: center;
+
+  color: #43baff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.flo-fa {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+.fvo {
+}
+.fvo2 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+.pique:hover .fvo2 {
+  color: rgb(34, 31, 60);
+}
+@media (max-width: 1200px) {
+  .pique {
+    width: 45%;
+    height: auto;
+    border: 1px solid rgb(151, 120, 209);
+    margin-top: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 760px) {
+  .pique {
+    width: 45%;
+    height: auto;
+    border: 1px solid rgb(151, 120, 209);
+    margin-top: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .bigy {
+    width: 70%;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .fvo2 {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .pique {
+    width: 95%;
+    height: auto;
+    border: 1px solid rgb(151, 120, 209);
+    margin-top: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .bigy {
+    width: 70%;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .fvo2 {
+    margin-bottom: 30px;
+  }
+}

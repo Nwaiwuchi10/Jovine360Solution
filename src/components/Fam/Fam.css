@@ -1,0 +1,125 @@
+.fam-main-div {
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+  /* background-blend-mode: darken; */
+  background-size: cover;
+  color: white;
+}
+.mg-div-fam {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.nons {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.ng {
+  font-size: 32px;
+  align-items: center;
+  font-weight: 800;
+  width: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nh {
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+}
+.jhl:hover {
+  background-color: cadetblue;
+}
+.vb {
+}
+.rolD {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.f-f {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.web {
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+}
+.dsp-fam-div {
+  display: grid;
+
+  width: 15%;
+  background-color: transparent;
+  background: transparent;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  border: 1px solid grey;
+  margin-top: auto;
+  margin-bottom: auto;
+  justify-content: center;
+}
+
+@media (max-width: 760px) {
+  .ng {
+    font-size: 25px;
+    align-items: center;
+    font-weight: 700;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dsp-fam-div {
+    display: grid;
+
+    width: 90%;
+    background-color: transparent;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    border: 1px solid grey;
+    margin-top: auto;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .rolD {
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 480px) {
+  .ng {
+    font-size: 20px;
+    align-items: center;
+    font-weight: 700;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

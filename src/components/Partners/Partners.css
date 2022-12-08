@@ -1,0 +1,35 @@
+.m-partners {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: " aliceblue";
+}
+.img-wrap {
+  margin: 0px 70px;
+}
+.parnet-img {
+  width: auto;
+  height: 8vh;
+  background: " aliceblue";
+  background-color: aliceblue;
+  background-image: " aliceblue";
+}
+.jdcg {
+  color: "white";
+}
+.p-per {
+  padding-top: 40px;
+}
+.type-words {
+}
+@media (max-width: 700px) {
+  .parnet-img {
+    width: auto;
+    height: 10vh;
+  }
+}
+@media (max-width: 480px) {
+  .parnet-img {
+    width: auto;
+    height: 10vh;
+  }
+}
