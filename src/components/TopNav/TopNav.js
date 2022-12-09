@@ -1,6 +1,6 @@
 import React from "react";
 import "./TopNavBar.css";
-import { FiTwitter } from "react-icons/fi";
+// import { FiTwitter } from "react-icons/fi";
 import { BiEnvelope } from "react-icons/bi";
 import { GrFacebookOption } from "react-icons/gr";
 import { IoIosCall } from "react-icons/io";
@@ -26,7 +26,8 @@ const TopNav = () => {
         <div className="dsp-one" style={{ cursor: "pointer" }}>
           <div className="hr-div-line"></div>
           <div onClick={refs}>
-            <FiTwitter />{" "}
+            <i class="fab fa-twitter"></i>
+            {/* <FiTwitter />{" "} */}
           </div>
           <div className="hr-div-line"></div>
           <div onClick={refer}>
